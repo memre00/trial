@@ -6,18 +6,29 @@ int maxValue(int num1, int num2, int num3, int num4, int num5, int num6)
 {
 	int max;
 	if (num1 <= num2)
+	{
 		max = num2;
+	}
 	if (num1>=num2)
+	{
 		max = num1;
+	}
 	else if (max <= num3)
+	{
 		max = num3;
+	}
 	else if (max <= num4)
+	{
 		max = num4;
+	}
 	else if (max <= num5)
+	{
 		max = num5;
+	}
 	else if (max <= num6)
+	{
 		max = num6;
-	
+	}
 	return max;
 }
 
